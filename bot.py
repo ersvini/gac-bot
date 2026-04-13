@@ -1,3 +1,4 @@
+import os
 import discord
 import asyncio
 import re
@@ -7,7 +8,7 @@ from threading import Thread
 # =============================================
 #  CONFIGURAÇÕES — edite aqui
 # =============================================
-DISCORD_TOKEN = "MTQ5MzM0NjE0Njg3NjI2NDQ1OA.GyK5ok.YbAgwYHnKQpGIBIHcUv5UO7OgF_azSnVwXH2tc"
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
 CHANNEL_ID    = 123456789012345678   # ID do canal onde as keys são postadas
 API_PORT      = 8080
 # =============================================
