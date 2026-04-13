@@ -7,7 +7,7 @@ from threading import Thread
 # =============================================
 #  CONFIGURAÇÕES — edite aqui
 # =============================================
-DISCORD_TOKEN = "SEU_TOKEN_DO_BOT_AQUI"
+DISCORD_TOKEN = "MTQ5MzM0NjE0Njg3NjI2NDQ1OA.GyK5ok.YbAgwYHnKQpGIBIHcUv5UO7OgF_azSnVwXH2tc"
 CHANNEL_ID    = 123456789012345678   # ID do canal onde as keys são postadas
 API_PORT      = 8080
 # =============================================
